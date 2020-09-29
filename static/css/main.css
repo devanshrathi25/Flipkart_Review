@@ -1,0 +1,13 @@
+body{
+   background: url(https://i.insider.com/5e612fbcfee23d22605048f3?width=1100&format=jpeg&auto=webp) no-repeat center fixed;
+   background-color: black;
+}
+
+h1{
+   color:#047BD5;
+}
+
+#two{
+   color:black;
+   background-color: #047BD5;
+}

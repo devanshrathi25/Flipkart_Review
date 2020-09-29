@@ -1,0 +1,18 @@
+body{
+background-color: #99004d;
+}
+h1 {
+    border: 1px solid black;
+    background-color: #B2DBBF;
+    font-family: 'Permanent Marker';
+}
+
+table,th,td {
+    border: 1px solid black;
+    background-color: #B2DBBF;
+    text-align: center;
+}
+
+th{
+     width: 30px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+<body>
+    <h1 style="text-align: center">Review Scrapper</h1>
+    <div class="container"  >
+            <form action="/review" method="POST">
+                <div class="input-group" >
+                    <input type="text" class="form-control" name="content" id="content" placeholder="Enter Search Keyword Here">
+
+                    <button type="submit" class="btn btn-default" id="two">Search</button>
+                </div>
+            </form>
+</div>
+</body>
+</html>
